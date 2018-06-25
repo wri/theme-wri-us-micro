@@ -1,9 +1,9 @@
-# theme-wri-us-micro
+# United States Topic Pages Subtheme: wri_us_micro
 Subtheme for wri.org based on WRI theme, used for United States topic pages project.
 
-# never deployed: project was cancelled.
+# Not deployed: complete, but project was cancelled
 
-# configuration
+# Configuration
 Requires WRI theme, Themekey, Context and Views.
 
 Pages use "Basic Page" content type and a custom content type "blurbs" with the following additional fields:
@@ -18,7 +18,7 @@ URL Alias used to toggle theme (ThemeKey) and Context rules.
 
 Taxonomy is used to promote content to the appropraite views.
 
-# content editing
+# Content editing
 
 ## Blurbs:
 
