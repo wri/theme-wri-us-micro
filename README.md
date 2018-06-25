@@ -8,10 +8,10 @@ Requires WRI theme, Themekey, Context and Views.
 
 Pages use "Basic Page" content type and a custom content type "blurbs" with the following additional fields:
 
-1.Blurb Link field_blurb_link (Link)
-2 Tag field_blurb_tag (Term Reference)
-3.Blurb Image field_image (Image)
+* "Blurb Link" field_blurb_link (Link)
+* "Tag" field_blurb_tag (Term Reference)
+* "Blurb Image" field_image (Image)
 
-Import the Context and Views (adjust as needed: these were based on WRI site settings in late 2017)
+Import the Context and Views config files (adjust as needed: these were based on WRI site settings in late 2017)
 
 URL Alias used to toggle theme (ThemeKey) and Context rules.
