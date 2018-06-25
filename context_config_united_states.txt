@@ -1,0 +1,67 @@
+$context = new stdClass();
+$context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+$context->api_version = 3;
+$context->name = 'united_states';
+$context->description = 'Topic page for United States';
+$context->tag = 'United States topic';
+$context->conditions = array(
+  'path' => array(
+    'values' => array(
+      'dev/path/united-states' => 'dev/path/united-states',
+    ),
+  ),
+);
+$context->reactions = array(
+  'block' => array(
+    'blocks' => array(
+      'views-blurbs-block' => array(
+        'module' => 'views',
+        'delta' => 'blurbs-block',
+        'region' => 'above_content',
+        'weight' => '-10',
+      ),
+      'views-united_states_what_we_do-block' => array(
+        'module' => 'views',
+        'delta' => 'united_states_what_we_do-block',
+        'region' => 'content',
+        'weight' => '-10',
+      ),
+      'views-united_states_latest-block' => array(
+        'module' => 'views',
+        'delta' => 'united_states_latest-block',
+        'region' => 'content',
+        'weight' => '-9',
+      ),
+      'views-united_states_video_block-block' => array(
+        'module' => 'views',
+        'delta' => 'united_states_video_block-block',
+        'region' => 'content',
+        'weight' => '-8',
+      ),
+      'views-blurbs-block_1' => array(
+        'module' => 'views',
+        'delta' => 'blurbs-block_1',
+        'region' => 'content',
+        'weight' => '-7',
+      ),
+      'views-bd4efd043d93363194649e0c901ed363' => array(
+        'module' => 'views',
+        'delta' => 'bd4efd043d93363194649e0c901ed363',
+        'region' => 'content',
+        'weight' => '-6',
+      ),
+    ),
+  ),
+  'breadcrumb' => array(
+    0 => 'main-menu:our-work/topics',
+  ),
+  'theme_html' => array(
+    'class' => 'us-topic-page',
+  ),
+);
+$context->condition_mode = 0;
+
+// Translatables
+// Included for use with string extractors like potx.
+t('Topic page for United States');
+t('United States topic');
