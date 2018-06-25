@@ -4,4 +4,6 @@ Subtheme for wri.org based on WRI theme, used for United States topic pages proj
 # never deployed: project was cancelled.
 
 # configuration
-Requires WRI theme, Views and Context. 
+Requires WRI theme, Themekey, Context and Views.
+
+URL Alias used to toggle theme (themkey) and Context rules.
